@@ -1,0 +1,116 @@
+@charset "UTF-8";
+
+// Mixins
+@import "components/prefixer";
+@import "components/mixins";
+@import "components/color";
+
+// Variables;
+@import "components/variables";
+
+// Reset
+@import "components/normalize";
+
+// components
+@import "components/global";
+@import "components/icons-material-design";
+@import "components/grid";
+@import "components/navbar";
+@import "components/roboto";
+@import "components/typography";
+@import "components/cards";
+@import "components/toast";
+@import "components/tabs";
+@import "components/tooltip";
+@import "components/buttons";
+@import "components/dropdown";
+@import "components/waves";
+@import "components/modal";
+@import "components/collapsible";
+@import "components/materialbox";
+@import "components/form";
+@import "components/table_of_contents";
+@import "components/sideNav";
+@import "components/preloader";
+@import "components/slider";
+@import "components/date_picker/default.scss";
+@import "components/date_picker/default.date.scss";
+@import "components/date_picker/default.time.scss";
+
+//--------------------------------------- Custom SCSS Overrides Here -----------------------------------------
+@import "customFonts.scss";
+
+// $orange = #EF6C00;
+// $light-blue = #629FB
+
+//--------------------------------------- Begin layout specific SCSS -----------------------------------------
+
+
+.sd-light-blue {
+  background-color: #629FB6;
+}
+
+.sd-orange {
+  background-color: #EF6C00;
+}
+
+/* NAVBAR */
+
+nav {
+  /*margin-bottom: 24px;*/
+  /*background-color: #28353D;*/
+  background-color: #629FB6;
+}
+
+ul.side-nav li a {
+  line-height: 44px;
+  padding: 24px;
+  display: block;
+}
+
+ul.side-nav li {
+  float: none;
+}
+
+#nav-logo {
+  max-height: 55px;
+  padding-top: 3%;
+}
+
+body {
+	background-color: #629FB6;
+}
+
+/* HOME SCREEN */
+.template-home {
+  background-color: #629FB6;
+}
+
+.hero {
+  background: url("../images/hero-background.jpg") no-repeat center;
+  background-size: cover;
+  height: 500px;
+}
+
+.hero-text {
+  padding-right: 5%;
+  /*color: #EF6C00;*/
+  color: #FFF;
+}
+
+#hero-button {
+  background-color: #629FB6;
+  color: #FFFFFF;
+  margin-left: 40%;
+}
+
+.feature-icons {
+  padding-left: 40%;
+}
+
+/* FOOTER */
+footer.page-footer {
+  /*background-color: #28353D;*/
+  background-color: #629FB6;
+  margin-top: -20px;
+}
